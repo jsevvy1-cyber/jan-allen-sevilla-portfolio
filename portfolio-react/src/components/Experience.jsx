@@ -1,7 +1,10 @@
+import React from 'react';
+
 const experienceData = [
   {
     role: "Software Engineer & IT Support Trainee",
     company: "Springfield School of Novaliches Inc.",
+    url: "https://www.facebook.com/springfieldnovalichesinc",
     duration: "March 2026 - May 2026",
     location: "Novaliches, PH",
     details: [
@@ -14,6 +17,7 @@ const experienceData = [
   {
     role: "AI Data Pipeline Reviewer & Core Annotator",
     company: "Atlas Capture LLC",
+    url: "https://www.atlascapture.io/",
     duration: "December 2025 - May 2026",
     location: "Remote",
     details: [
@@ -30,7 +34,17 @@ export default function Experience() {
       <div className="experience-list">
         {experienceData.map((exp, index) => (
           <div key={index} className="experience-card">
-            <h3>{exp.role} — <span className="company">{exp.company}</span></h3>
+            <h3>
+              {exp.role} —{" "}
+              <a 
+                href={exp.url} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="company"
+              >
+                {exp.company}
+              </a>
+            </h3>
             <p className="exp-meta">{exp.duration} | {exp.location}</p>
             <ul>
               {exp.details.map((point, i) => (
