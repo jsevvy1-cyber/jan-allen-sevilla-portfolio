@@ -16,11 +16,10 @@ export default function Navbar() {
 
   return (
     <header className="navbar">
-      
       <nav>
         <ul className="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#techstack">Tech Stack</a></li>
+          <li><a href="#tech-stack">Tech Stack</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>

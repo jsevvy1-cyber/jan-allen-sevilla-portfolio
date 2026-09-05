@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section id="hero" className="hero-section">
+    <section id="about" className="hero-section">
       <div className="hero-container">
         {/* Left Column: Image Only */}
         <div className="hero-profile">
