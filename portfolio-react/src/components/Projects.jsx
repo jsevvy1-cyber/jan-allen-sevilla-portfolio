@@ -37,7 +37,9 @@ export default function Projects() {
             <span className="tag">Marzipano</span>
             <span className="tag">UI/UX Design</span>
           </div>
-          <a href="#" className="project-link">View Code →</a>
+          <a href="https://github.com/Razen-n/CEISCAPSTONE" target="_blank" rel="noopener noreferrer">
+            View Code →
+          </a>
         </div>
 
         {/* 3. Law Office Management */}
