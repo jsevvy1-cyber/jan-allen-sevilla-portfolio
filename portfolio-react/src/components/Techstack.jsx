@@ -12,16 +12,16 @@ export default function TechStack() {
     {
       category: "Back-End Development",
       skills: [ 
-        "Python", "Java", "C++", "C#", "PHP", "RESTful API", "Nodee.js", "Laravel", "XAMPP" 
+        "Python", "Java", "C++", "C#", "PHP", "RESTful API", "Node.js", "Laravel", "XAMPP" 
       ]
     },
 
     {
       category: "IT Support, Infrastructure & Systems Analysis",
       skills: [
-        "Hardware Assembly & Troubleshooting", "OS Installation & Configuration", 
-        "Software Diagnostics", "Systems Analysis & Design", "Server Management", 
-        "XAMPP", "Network Setup", "CyberSecurity Level 1"
+        "Hardware Assembly & Diagnostics", "OS Installation & Deployment", 
+        "Server Management", "Active Directory", "Cybersecurity Fundamentals", 
+        "Web Server Admin (Apache/MySQL)", "Systems Analysis & Design", "Server Management & Web Hosting", "Network Troubleshooting", "Ticketing Systems (service desk-simulator)", "Network Setup & Configuration"
       ]
     },
     {
