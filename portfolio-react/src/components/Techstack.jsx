@@ -1,14 +1,21 @@
 export default function TechStack() {
   const stack = [
     {
-      category: "Software Engineering & Web Development",
+      category: "Front-End Development",
       skills: [
-        "JavaScript", "TypeScript", "React.js", "Node.js", "React Native", 
+        " JavaScript (ES6+)", "TypeScript", "React.js", "React Native", 
         "Python", "Java", "C++", "C#", "PHP", "HTML5", "CSS3", 
-        "Tailwind CSS", "Full-Stack Architecture", "RESTful Concepts", 
-        "Marzipano Engine", "Software Architecture"
+        "Tailwind CSS", "Marzipano Engine", "UI/UX Design"   
       ]
     },
+
+    {
+      category: "Back-End Development",
+      skills: [ 
+        "Python", "Java", "C++", "C#", "PHP", "RESTful API", "Nodee.js", "Laravel", "XAMPP" 
+      ]
+    },
+
     {
       category: "IT Support, Infrastructure & Systems Analysis",
       skills: [
@@ -20,8 +27,15 @@ export default function TechStack() {
     {
       category: "Data Analysis & Database Management",
       skills: [
-        "MySQL", "SQL", "AI/ML Data Quality Engineering", 
-        "Relational Database Schema Optimization"
+        "MySQL", "SQL", "AI/ML Data Quality Engineering",
+        "Relational Database Schema Optimization", "Microsoft Power BI", "PostgreSQL"
+      ]
+    },
+    {
+      category: "AI Tools & ML Development",
+      skills: [
+        "ChatGPT", "GPT-6 Luna", "GPT-6 Sol", "Codex",
+        "Claude", "Opus 5.5", "Sonnet 5.5", "Github Copilot", "Prompt Engineering", "AI/ML Data Quality Engineering", "Data Annotation"
       ]
     },
     {
@@ -29,7 +43,7 @@ export default function TechStack() {
       skills: [
         "Git/GitHub", "Docker", "Google Cloud Platform (GCP)", 
         "Visual Studio Code", "Android Studio", "Android SDK", 
-        "Figma", "UI/UX Design"
+        "Figma", "Vercel"
       ]
     }
   ];

@@ -7,11 +7,41 @@ export default function Projects() {
         {/* 1. Springfield School Web Platform */}
         <div className="project-card">
           <div className="project-header">
+            <h3>GStudio Beauty Clinic</h3>
+            <span className="project-year">2026</span>
+          </div>
+          <p>
+            Integrated PayMongo API for secure online payment processing and implemented automated post-payment email verification
+              workflows
+          </p>
+          <p>
+            Engineered responsive front-end components using React.js and Tailwind CSS, bundled with Vite for optimized build
+            performance and low-latency client rendering.
+          </p>
+          <p>
+            Programmed back-end features to update and handle appointment booking records in a PostgreSQL database
+          </p>
+          
+          <div className="tech-tags">
+            <span className="tag">React.js</span>
+            <span className="tag">PostgreSQL</span>
+            <span className="tag">Tailwind CSS</span>
+            <span className="tag">PayMongo</span>
+          </div>
+        </div>
+
+
+        {/* 2. Springfield School Web Platform */}
+        <div className="project-card">
+          <div className="project-header">
             <h3>Springfield School Web Platform & 360° Virtual Tour Engine</h3>
             <span className="project-year">2026</span>
           </div>
           <p>
             Developed a high-performance React.js web platform integrated with an interactive 360° virtual walkthrough engine and custom support chatbot.
+          </p>
+          <p>
+            Engineered a custom-logic chatbot component to automate client support workflows and streamline user inquiries.
           </p>
           <div className="tech-tags">
             <span className="tag">React.js</span>
@@ -19,9 +49,12 @@ export default function Projects() {
             <span className="tag">Tailwind CSS</span>
             <span className="tag">Marzipano Engine</span>
           </div>
+          <a href="https://gstudiobeautyclinic.com/gstudio" target="_blank" rel="noopener noreferrer">
+            View Code →
+          </a>
         </div>
 
-        {/* 2. CEIS Academic Web Platform (Kept View Code link) */}
+        {/* 3. CEIS Academic Web Platform (Kept View Code link) */}
         <div className="project-card">
           <div className="project-header">
             <h3>CEIS Academic Web Platform & Interactive Panoramic Engine</h3>
@@ -42,7 +75,7 @@ export default function Projects() {
           </a>
         </div>
 
-        {/* 3. Law Office Management */}
+        {/* 4. Law Office Management */}
         <div className="project-card">
           <div className="project-header">
             <h3>Law Office Management Mobile Application & Web Portal</h3>
@@ -56,11 +89,12 @@ export default function Projects() {
             <span className="tag">Java</span>
             <span className="tag">Kotlin</span>
             <span className="tag">SQL</span>
+            <span className="tag">Android Studio SDK</span>
             <span className="tag">Android Studio</span>
           </div>
         </div>
 
-        {/* 4. Library Management System */}
+        {/* 5. Library Management System */}
         <div className="project-card">
           <div className="project-header">
             <h3>Library Management System & Hotel Reservation Web Application</h3>
@@ -75,6 +109,7 @@ export default function Projects() {
             <span className="tag">MySQL</span>
             <span className="tag">JavaScript</span>
             <span className="tag">CSS3</span>
+            <span className="tag">HTML5</span>
           </div>
         </div>
 
