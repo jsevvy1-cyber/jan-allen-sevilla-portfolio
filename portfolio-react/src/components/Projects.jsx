@@ -28,6 +28,9 @@ export default function Projects() {
             <span className="tag">Tailwind CSS</span>
             <span className="tag">PayMongo</span>
           </div>
+          <a href="https://gstudiobeautyclinic.com/gstudio" target="_blank" rel="noopener noreferrer">
+            View Project →
+          </a>
         </div>
 
 
@@ -49,9 +52,6 @@ export default function Projects() {
             <span className="tag">Tailwind CSS</span>
             <span className="tag">Marzipano Engine</span>
           </div>
-          <a href="https://gstudiobeautyclinic.com/gstudio" target="_blank" rel="noopener noreferrer">
-            View Code →
-          </a>
         </div>
 
         {/* 3. CEIS Academic Web Platform (Kept View Code link) */}
