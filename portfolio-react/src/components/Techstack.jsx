@@ -34,7 +34,7 @@ export default function TechStack() {
     {
       category: "AI Tools & ML Development",
       skills: [
-        "ChatGPT", "GPT-6 Luna", "GPT-6 Sol", "Codex",
+        "ChatGPT", "GPT-6 Luna", "GPT-6 Sol", "Codex", "Gemini", 
         "Claude", "Opus 5.5", "Sonnet 5.5", "Github Copilot", "Prompt Engineering", "AI/ML Data Quality Engineering", "Data Annotation"
       ]
     },
