@@ -4,8 +4,8 @@ export default function TechStack() {
       category: "Front-End Development",
       skills: [
         " JavaScript (ES6+)", "TypeScript", "React.js", "React Native", 
-        "Python", "Java", "C++", "C#", "PHP", "HTML5", "CSS3", 
-        "Tailwind CSS", "Marzipano Engine", "UI/UX Design"   
+         "HTML5", "CSS3", "Tailwind CSS", "Marzipano Engine", "UI/UX Design"
+       
       ]
     },
 
